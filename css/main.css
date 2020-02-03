@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	-webkit-transition: 1.5s ease-in-out;
+	transition: 1.5s ease-in-out;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+.side {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 20px 50px;
+	color: #fff;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	
+}
+.content {
+	transform: translatez(70px) scale(0.8);
+	line-height: 1.5em;
+}
+.content h1 {
+	position: relative;
+}
+.content p {
+	margin-top: 50px;
+    line-height: 2em;
+    font-size: 20px;
+}
+.content h1:before {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	height: 3px;
+	background-color: #3e3;
+	width: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.front {
+	z-index: 2;
+	background-size: 100vh;
+	background-size: cover;
+	/* background-image: url(https://livewallpaperhd.com/wp-content/uploads/2017/07/Dark-Elegant-Wallpaper.jpg); */
+}
+.back {
+	/* background-color: #333; */
+	transform: rotateY(180deg);
+	z-index: 0;
+	padding-top: 10px;
+	
+}
+.project0Pic{
+    width: 55%;
+}
+.project1Pic{
+    width: 85%;
+}
+.project2Pic{
+    width: 100%;
+}
+.project3Pic{
+    width: 100%;
+}
+.container:hover {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.back h1 {
+	margin: 0;
+} 
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(0,0,0,0.3), rgba(0,0,0,0.3)),
+url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl=dark-computer-green-software-225769.jpg&fm=jpg');
+    background-size: cover;
+    color: white;
+}
+
+.about{
+    height: 200vh;
+    display: flex;
+    /* background-image: url('https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'); */
+    
+}
+.aboutMe{
+    width: 50%;
+}
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.about-pages{
+    width: 50%;
+}
+.about-pages div{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+/* .container{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 50%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+} */
+.about-pages div > p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+}
+.intro{
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+.skills1{
+  width: 39vw;
+}
+.skills2{
+    width: 35vw;
+}
+#skills-block{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.skills1 li{
+    text-decoration: none;
+    position: relative;
+    display: inline;
+    margin: 20px;
+    max-width: 220px;
+    /* width: 100%; */
+    color: #bbb;
+    font-size: 16px;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0) !important;
+    transform: translateZ(0);
+}
+.skills2 li{
+    text-decoration: none;
+    position: relative;
+    display: inline;
+    margin: 20px;
+    max-width: 220px;
+    /* width: 100%; */
+    color: #bbb;
+    font-size: 16px;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0) !important;
+    transform: translateZ(0);
+}
+.skillsPic{
+    width: 20%;
+}
+.skillsPicPost{
+    width: 30%;
+   
+}
+.skillsPicHCJ{
+    width: 27%;
+}
+#project1{
+    background-color: rgb(56,134,89);
+}
+#project2{
+    background-color: rgb(129,42,110);;
+}
+#project3{
+    background-color: rgb(31,88,107);
+}
+#project4{
+    background-color: rgb(79, 56, 134);
+}
+/* .about-pages div:nth-child(1){
+    background-color: rgb(31,88,107);
+}
+.about-pages div:nth-child(2){
+    background-color: rgb(129,42,110);
+}
+.about-pages div:nth-child(3){
+    background-color: rgb(31,88,107);
+} */
+
+footer{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?cs=srgb&dl=macbook-pro-92904.jpg&fm=jpg');
+}
+.welcome{
+    transform: translateZ(50px) translateY(-50%) translateX(-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	font-size: 1.9rem;
+}
+.tilt {
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+	transform-style: preserve-3d;
+	margin: 50px auto;
+}
+.tilt-logo {
+	width: 200px;
+	height: 200px;
+	background-color: #7e56ff;
+	background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);
+}
+
+
+
+
+
