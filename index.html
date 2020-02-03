@@ -10,49 +10,68 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <ul class="main-nav" id="js-menu">
+
+            <li>
+                <a href="#about" class="nav-links">About Me</a>
+            </li>
+            <li>
+                <a href="#skills-block" class="nav-links">Projects</a>
+            </li>
+            <li>
+                <a href="#footer" class="nav-links">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
 
     <header id="scene">
 
-        <div data-depth="0.5">
-            <h1 id="welcome" class="porthole animated fadeInRight">Hi, I'm Mahyar Kianfar</h1>
-            <h2>Sodtware Develeoper/Web Designer</h2>
-            <h2 class="h2">Welcome To My Portfoli</h2>
+        <div data-depth="0.8">
+            <h1 id="welcome" class="porthole animated fadeInRight delay-2s">Hi, I'm Mahyar Kianfar</h1>
+            <h2 class="animated  fadeInLeft delay-2s">Sodtware Develeoper/Web Designer</h2>
+            <!-- <h2 class="h2">Welcome To My Portfoli</h2> -->
         </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-title">
-            
+
             <div class="aboutMe">
                 <h4>About Me</h4>
                 <p class="intro">I finished my BC in Information System from IT university in Gothenburg/Sweden and
                     worked one year as a junior Software
                     developer at Telia, after that I moved permanently to Australia and worked at Riccho as a field
                     engineer and a few years on my own business as a
-                    restaurant manager, All these years I wanted to go back to my reall passion which finally decided to
-                    start Immersive software engineering course at General Assembly in Sydney.</p>
+                    restaurant manager, All these years I wanted to go back to my reall passion which finally started by
+                    taking the Immersive software engineering course at General Assembly in Sydney.
+                </p>
                 <div id="skills-block">
                     <h4>My Skills</h4>
                     <div class="skills1">
-                                    <ul>
-                                    <li><img class="skillsPic" src="img/NicePng_ruby-png_2152522.png" alt=""></li>
-                                    <li><img class="skillsPic" src="img/PngItem_5284265.png" alt=""></li>
-                                    <li><img class="skillsPicPost" src="img/hiclipart.com.png" alt=""></li>
-                                    <li><img class="skillsPic" src="img/mvc.png" alt=""></li>
-                                    <li><img class="skillsPic" src="img/Octocat.png" alt=""></li>
-                                    <li><img class="skillsPicHCJ" src="img/H-J-Jq-B.png" alt=""></li>
-                                    </ul>
-                                    </div>
-                                    <div class="skills2">
-                                    <li><img class="skillsPic"
-                                        src="img/http___pluspng.com_img-png_nodejs-logo-png-node-js-on-light-background-1843.png"
-                                        alt=""> </li>
-                                        <li><img class="skillsPic"
-                                            src="img/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png"
-                                            alt=""></li>
-                                            
-                                            <li><img class="skillsPic" src="img/agile.png" alt=""></li>
-                                            
+                        <ul>
+                            <li><img class="skillsPic" src="img/NicePng_ruby-png_2152522.png" alt=""></li>
+                            <li><img class="skillsPic" src="img/PngItem_5284265.png" alt=""></li>
+                            <li><img class="skillsPicPost" src="img/hiclipart.com.png" alt=""></li>
+                            <li><img class="skillsPic" src="img/mvc.png" alt=""></li>
+                            <li><img class="skillsPic" src="img/Octocat.png" alt=""></li>
+                            <li><img class="skillsPicHCJ" src="img/H-J-Jq-B.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="skills2">
+                        <li><img class="skillsPic"
+                                src="img/http___pluspng.com_img-png_nodejs-logo-png-node-js-on-light-background-1843.png"
+                                alt=""> </li>
+                        <li><img class="skillsPic"
+                                src="img/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png"
+                                alt=""></li>
+
+                        <li><img class="skillsPic" src="img/agile.png" alt=""></li>
+
 
                         </ul>
                     </div>
@@ -64,15 +83,17 @@
                 <div class="front side">
                     <div class="content">
                         <h2>Project 0</h2>
-                        <p>Tic Tac Toe is my Project 0, a simple Tick Tack Toe game developed by JavaScript, Html and CSS.
+                        <p>Tic Tac Toe is my Project 0, a simple Tick Tack Toe game developed by JavaScript, Html and
+                            CSS.
                         </p>
-                        
+
                     </div>
                 </div>
                 <div class="back side">
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Tick Tack Toe</span><span style="font-size: 30px;">
-                            <a href="https://github.com/Kian-F/project0">(view code)</a> </p></span>
+                        <p><span style="font-weight: bold; font-size: 30px;">Tick Tack Toe</span><span
+                                style="font-size: 30px;">
+                                <a href="https://github.com/Kian-F/project0">(view code)</a> </p></span>
                         <img class="project0Pic" src="img/Tic.png" alt="">
                     </div>
 
@@ -82,8 +103,9 @@
                 <div class="front side">
                     <div class="content">
                         <h2>Project 1</h2>
-                        <p>This project is a web app that allows users(agents) to cereate an 
-                            account and add there client's(fotboll players) to the database adn the other users can see a 
+                        <p>This project is a web app that allows users(agents) to cereate an
+                            account and add there client's(fotboll players) to the database adn the other users can see
+                            a
                             list of the players and there details. It utilises thesportsdb API.
                         </p>
                     </div>
@@ -91,8 +113,9 @@
                 <div class="back side">
                     <div class="content">
                         <div class="content">
-                            <p><span style="font-weight: bold; font-size: 35px;">Simple Transfer Market</span><span style="font-size: 30px;">
-                                <a href="https://github.com/Kian-F/project1">(view code)</a> </span></p>
+                            <p><span style="font-weight: bold; font-size: 35px;">Simple Transfer Market</span><span
+                                    style="font-size: 30px;">
+                                    <a href="https://github.com/Kian-F/project1">(view code)</a> </span></p>
                             <img class="project1Pic" src="img/project1.png" alt="">
                         </div>
                     </div>
@@ -104,19 +127,23 @@
                 <div class="front side">
                     <div class="content">
                         <h2>Project 2</h2>
-                        <p>Great fun building this group project part of the Software Engineering Immersive course at General Assembly Sydney. Enjoyed the most building both order and check-out components.
-                           This website is a version of Menu Log for an individual restaurant. Users can make orders for pick-up or delivery, with the optional choice of creating a user account. Website built using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.
+                        <p>Great fun building this group project part of the Software Engineering Immersive course at
+                            General Assembly Sydney. Enjoyed the most building both order and check-out components.
+                            This website is a version of Menu Log for an individual restaurant. Users can make orders
+                            for pick-up or delivery, with the optional choice of creating a user account. Website built
+                            using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.
                         </p>
                     </div>
                 </div>
                 <div class="back side">
-                    
-                        <div class="content">
-                            <p><span style="font-weight: bold; font-size: 30px;">Babo Resturant</span><span style="font-size: 30px;">
+
+                    <div class="content">
+                        <p><span style="font-weight: bold; font-size: 30px;">Babo Resturant</span><span
+                                style="font-size: 30px;">
                                 <a href="https://github.com/anapgsilva/restaurant_client">(view code)</a> </span></p>
-                            <img class="project2Pic" src="img/project2.png" alt="">
-                        </div>
-                    
+                        <img class="project2Pic" src="img/project2.png" alt="">
+                    </div>
+
 
                 </div>
             </div>
@@ -124,15 +151,17 @@
                 <div class="front side">
                     <div class="content">
                         <h2>Project 3</h2>
-                        <p>The idea was to enable people to design thier own dog/cat tag, name or door tag with diffrent fonts and font-size
-                            and send thire order trough the website for engraving. 
+                        <p>The idea was to enable people to design thier own dog/cat tag, name or door tag with diffrent
+                            fonts and font-size
+                            and send thire order trough the website for engraving.
                         </p>
                     </div>
                 </div>
                 <div class="back side">
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Engraving Online Order</span><span style="font-size: 30px;">
-                            <a href="https://github.com/Kian-F/engraving-client">(view code)</a> </span></p>
+                        <p><span style="font-weight: bold; font-size: 30px;">Engraving Online Order</span><span
+                                style="font-size: 30px;">
+                                <a href="https://github.com/Kian-F/engraving-client">(view code)</a> </span></p>
                         <img class="project2Pic" src="img/project3.png" alt="">
                     </div>
 
@@ -140,8 +169,9 @@
             </div>
 
     </section>
-    <footer>
-        <h2>Footer</h2>
+    <footer id="footer">
+        <a href="mailto:mahyar.kianfar@gmail.com" target="_blank" rel="noopener noreferrer"><span style="font-size: 25px;">Email Me</span></a>
+
     </footer>
     </div>
     <script src="scripts/ScrollMagic.min.js"></script>

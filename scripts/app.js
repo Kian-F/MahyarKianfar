@@ -1,8 +1,8 @@
 function splitScroll(){
     var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
+    var parallax = new Parallax(scene);
+    
     var controller = new ScrollMagic.Controller();
-   
     new ScrollMagic.Scene({
         duration: 500,  //how log the scrolling will last 500px
         triggerElement:'.about-title',   // what is going trigger our scroll about tittle
