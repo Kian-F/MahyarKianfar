@@ -64,7 +64,7 @@
     width: 60%;
 }
 .project1Pic{
-    width: 85%;
+    width: 90%;
 }
 .project2Pic{
     width: 100%;
@@ -335,6 +335,22 @@ footer{
     margin: 13px;
     line-height: 1.5;
   }
+ 
+.technology{
+    height: 64%;
+}
 
-  
+.fa-ul {
+    list-style-type: none;
+    margin-left: 1em;
+    padding-left: 0;
+    color: chartreuse;
+}
+.fa-ul>li {
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
