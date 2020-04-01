@@ -94,7 +94,7 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
     
 }
 .aboutMe{
-    width: 50%;
+    width: 80%;
 }
 .about-title{
     width: 50%;
@@ -117,26 +117,15 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
     align-items: center;
     color: white;
 }
-/* .container{
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    width: 50%;
-    width: 80%;
-    font-size: 18px;
-    line-height: 30px;
-} */
+
 .about-pages div > p{
     width: 80%;
     font-size: 18px;
     line-height: 30px;
 }
 .intro{
-    width: 80%;
-    font-size: 14px;
+    width: 100%;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -151,10 +140,13 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
     width: 35vw;
 }
 #skills-block{
-    margin: 0 auto;
+    /* margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 30px; */
+    display: block;
+    /* margin: 0 9em;
+    height: 100vh; */
 }
 .skills1 li{
     text-decoration: none;
@@ -325,4 +317,18 @@ footer{
       }
   }
 
+
+  #skills {
+    /* min-width: 437px; */
+    width: 39vw;
+  }
+  
+  #skills i {
+    /* color: #ff5b5c; */
+    font-size: 76px;
+    margin: 13px;
+    line-height: 1.5;
+  }
+
+  
 
