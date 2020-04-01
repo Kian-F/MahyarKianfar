@@ -24,7 +24,7 @@
 }
 .content {
 	transform: translatez(70px) scale(0.8);
-	line-height: 1.5em;
+	/* line-height: 1.5em; */
 }
 .content h1 {
 	position: relative;
@@ -57,8 +57,11 @@
 	padding-top: 10px;
 	
 }
+.projectWeatherPic{
+    width: 90%;
+}
 .project0Pic{
-    width: 55%;
+    width: 60%;
 }
 .project1Pic{
     width: 85%;
@@ -110,7 +113,7 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
     width: 50%;
 }
 .about-pages div{
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -119,8 +122,8 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
 }
 
 .about-pages div > p{
-    width: 80%;
-    font-size: 18px;
+    /* width: 80%; */
+    font-size: 20px;
     line-height: 30px;
 }
 .intro{
@@ -186,6 +189,9 @@ url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?cs=srgb&dl
 }
 #project1{
     background-color: rgb(56,134,89);
+}
+#project11{
+    background-color: rgb(148,145,52,4);
 }
 #project2{
     background-color: rgb(129,42,110);;
