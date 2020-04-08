@@ -1,46 +1,84 @@
 <html lang="en">
 
 <head>
+    <title>Mahyar Kianfar | Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/340ae695bc.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Portfolio of Mahyar Kianfar, aspiring software engineer in Sydney">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/340ae695bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Mahyar Kianfar</title>
+
+
+
 
 </head>
 
-<body>
-    <nav class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
-        <ul class="main-nav" id="js-menu">
+<body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
 
-            <li>
-                <a href="#about" class="nav-links">About Me</a>
-            </li>
-            <li>
-                <a href="#projects" class="nav-links">Projects</a>
-            </li>
-            <li>
-                <a href="#footer" class="nav-links">Contact</a>
-            </li>
 
-        </ul>
-    </nav>
+    <div>
+        <nav class="navbar" id='nav'>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
 
+            <ul class="main-nav" id="js-menu">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" class="brand" src="img/logo_transparent.png">
+                    </a>
+                </div>
+
+                <li>
+                    <a href="#about" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-links">Projects</a>
+                </li>
+                <li>
+                    <a href="#footer" class="nav-links">Contact</a>
+                </li>
+                <!-- <li>
+                <a href="img/M-Kianfar-CV.pdf" download="mahyat-kianfar-cv" target="_blank">CV</a>
+            </li> -->
+            </ul>
+
+            <div class="menu-socials" style="text-decoration: none">
+                <ul >
+                  <li >
+                    <a href="mailto:mahyar.kianfar@gmail.com" target="_blank" ><i class="fas fa-envelope"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/mahyar-kianfar" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <!-- <li>
+                    <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                  </li> -->
+                </ul>
+              </div>
+        </nav>
+    </div>
     <header id="scene">
 
         <div data-depth="1">
-            <h1 id="welcome" class="porthole animated fadeInRight delay-2s">Hi, I'm Mahyar Kianfar</h1>
-            <h2 class="animated  fadeInLeft delay-2s">Sodtware/Web Develeoper</h2>
+            <h1 id="welcome" class="porthole animated fadeInRight delay-2s" style="font-family: Montserrat, sans-serif;
+            margin-top: 0;    font-size: 50px;
+            text-transform: uppercase;">Mahyar Kianfar</h1>
+            <h2 id='heroH2' class="animated  fadeInLeft delay-2s">Software Engineer</h2>
+            <h2 id='heroH2Sub' class="animated  fadeInLeft delay-2s">Interested in Front End or Full Stack opportunities
+                in Sydney</h2>
             <!-- <h2 class="h2">Welcome To My Portfoli</h2> -->
         </div>
     </header>
+
 
     <section class="about" id="about">
         <div class="about-title">
@@ -54,35 +92,36 @@
                     restaurant manager, All these years I wanted to go back to my reall passion which finally started by
                     taking the Immersive software engineering course at General Assembly in Sydney.<br>
 
-                    <p class="intro">You wouldn’t be wrong in thinking that I lean towards front-end development. But don’t box me in just yet. 
-                    I’m ambitious and want to learn as much as I can.</p>
+                    <p class="intro">You wouldn’t be wrong in thinking that I lean towards front-end development. But
+                        don’t box me in just yet.
+                        I’m ambitious and want to learn as much as I can.</p>
                 </p>
                 <div id="skills-block">
-                    
-                        <div id="skills">
-                            <h3>Skills</h3>
-                            <i class="devicon-java-plain-wordmark colored"></i>
-                            <i class="devicon-github-plain-wordmark colored"></i>
-                            <i class="devicon-html5-plain-wordmark colored"></i>
-                            <i class="devicon-css3-plain-wordmark colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                            <i class="devicon-react-original-wordmark colored"></i>
-                            <i class="devicon-webpack-plain colored"></i>
-                            <i class="devicon-jquery-plain-wordmark colored"></i>
-                            <i class="devicon-nodejs-plain colored"></i>
-                            <i class="devicon-rails-plain-wordmark colored"></i>
-                            <i class="devicon-ruby-plain-wordmark colored"></i>
-                            <i class="devicon-mongodb-plain-wordmark colored"></i>
-                            <i class="devicon-postgresql-plain-wordmark colored"></i>
-                            <i class="devicon-heroku-plain-wordmark wordmark colored"></i>
-                            <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                            <i class="devicon-mysql-plain-wordmark colored"></i>
-                            <i><img class="skillsPic" src="img/agile.png" alt=""></i>
-        
-                            
-                           
-                          </div>
-                    
+
+                    <div id="skills">
+                        <h3>Skills</h3>
+                        <i class="devicon-java-plain-wordmark colored"></i>
+                        <i class="devicon-github-plain-wordmark colored"></i>
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-webpack-plain colored"></i>
+                        <i class="devicon-jquery-plain-wordmark colored"></i>
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <i class="devicon-rails-plain-wordmark colored"></i>
+                        <i class="devicon-ruby-plain-wordmark colored"></i>
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                        <i class="devicon-postgresql-plain-wordmark colored"></i>
+                        <i class="devicon-heroku-plain-wordmark wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <i><img class="skillsPic" src="img/agile.png" alt=""></i>
+
+
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -91,7 +130,9 @@
                 <div class="front side">
                     <div class="content">
                         <h2>Weather App</h2>
-                        <p>A ReactJS application that allows users to search for locations, and then retrieve weather information about that location. One source of this information, for both a location search and related weather information, 
+                        <p>A ReactJS application that allows users to search for locations, and then retrieve weather
+                            information about that location. One source of this information, for both a location search
+                            and related weather information,
                             is the Meta weather API.
                         </p>
 
@@ -101,7 +142,8 @@
                     <div class="content">
                         <p><span style="font-weight: bold; font-size: 30px;">Weather App</span><span
                                 style="font-size: 30px;">
-                                <a href="https://github.com/Kian-F/weatherApp/tree/master/weather-app">(view code)</a> </p></span>
+                                <a href="https://github.com/Kian-F/weatherApp/tree/master/weather-app">(view code)</a>
+                        </p></span>
                         <img class="projectWeatherPic" src="img/weatherApp.png" alt="">
                     </div>
 
@@ -113,11 +155,11 @@
                         <h2>Project 0</h2>
                         <p class="heading">Technology.</p>
                         <div class="technology">
-                        <i class="devicon-html5-plain-wordmark"></i>
-                        <i class="devicon-css3-plain-wordmark"></i>
-                        <i class="devicon-javascript-plain"></i>
-                        <i class="devicon-jquery-plain-wordmark"></i>
-                    </div>
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-jquery-plain-wordmark"></i>
+                        </div>
                         <p>Tic Tac Toe is my Project 0, a simple Tick Tack Toe game developed by JavaScript, Html and
                             CSS.
                         </p>
@@ -204,32 +246,38 @@
             </div>
 
     </section>
-  
+
     <footer id="footer">
-        
-        
-            
-              <ul  class="fa-ul">
-                <li>
-                  <i class="fas fa-li fa-paper-plane"></i>
-                  <a href="mailto:mahyar.kianfar@gmail.com"><h3 class="link--animate">Lets talk.</h3></a>
-                </li>
-                <li>
-                  <i class="fab fa-li fa-linkedin"></i>
-                  <a href="https://www.linkedin.com/in/mahyarkianfar/" target="_blank"><h3 class="link--animate">Get to know me.</h3></a>
-                </li>
-                <li>
-                  <i class="fab fa-li fa-github"></i>
-                  <a href="https://github.com/Kian-F" target="_blank"><h3 class="link--animate">View my code.</h3></a>
-                </li>
-                <li>
-                  <i class="fas fa-li fa-file-download"></i>
-                  <a href="img/M-Kianfar-CV.pdf" download="jordan-trickett-cv" target="_blank">
+
+
+
+        <ul class="fa-ul">
+            <li>
+                <i class="fas fa-li fa-paper-plane"></i>
+                <a href="mailto:mahyar.kianfar@gmail.com">
+                    <h3 class="link--animate">Lets talk.</h3>
+                </a>
+            </li>
+            <li>
+                <i class="fab fa-li fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/mahyarkianfar/" target="_blank">
+                    <h3 class="link--animate">Get to know me.</h3>
+                </a>
+            </li>
+            <li>
+                <i class="fab fa-li fa-github"></i>
+                <a href="https://github.com/Kian-F" target="_blank">
+                    <h3 class="link--animate">View my code.</h3>
+                </a>
+            </li>
+            <li>
+                <i class="fas fa-li fa-file-download"></i>
+                <a href="img/M-Kianfar-CV.pdf" download="mahyar-kianfar-cv" target="_blank">
                     <h3 class="link--animate">Download CV</h3>
-                  </a>
-                </li>
-              </ul>
-          
+                </a>
+            </li>
+        </ul>
+
 
     </footer>
     </div>
