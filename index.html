@@ -15,13 +15,15 @@
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
 
 
 
 
 </head>
 
-<body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
+<body data-spy="scroll">
 
 
     <div>
@@ -69,7 +71,7 @@
     <header id="scene">
 
         <div data-depth="1">
-            <h1 id="welcome" class="porthole animated fadeInRight delay-2s" style="font-family: Montserrat, sans-serif;
+            <h1 id='heroH1' class="porthole animated fadeInRight delay-2s" style="font-family: Montserrat, sans-serif;
             margin-top: 0;    font-size: 50px;
             text-transform: uppercase;">Mahyar Kianfar</h1>
             <h2 id='heroH2' class="animated  fadeInLeft delay-2s">Software Engineer</h2>
@@ -80,10 +82,10 @@
     </header>
 
 
-    <section class="about" id="about">
+    <section class="about" >
         <div class="about-title">
 
-            <div class="aboutMe">
+            <!-- <div class="aboutMe">
                 <h3>About Me</h3>
                 <p class="intro">I finished my BC in Information System from IT university in Gothenburg/Sweden and
                     worked one year as a junior Software
@@ -96,10 +98,10 @@
                         don’t box me in just yet.
                         I’m ambitious and want to learn as much as I can.</p>
                 </p>
-                <div id="skills-block">
+                <div id="skills-block"> -->
 
-                    <div id="skills">
-                        <h3>Skills</h3>
+                    <div id="skills" >
+                        <h3 class="text-center bottom-line">TECHNOLOGIES</h3>
                         <i class="devicon-java-plain-wordmark colored"></i>
                         <i class="devicon-github-plain-wordmark colored"></i>
                         <i class="devicon-html5-plain-wordmark colored"></i>
@@ -123,13 +125,13 @@
                     </div>
 
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
         <div class="about-pages" id="projects">
-            <div class="container" id="project1">
+            <div class="ProjectContainer" id="project1">
                 <div class="front side">
                     <div class="content">
-                        <h2>Weather App</h2>
+                        <h2 style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Weather App</h2>
                         <p>A ReactJS application that allows users to search for locations, and then retrieve weather
                             information about that location. One source of this information, for both a location search
                             and related weather information,
@@ -140,27 +142,21 @@
                 </div>
                 <div class="back side">
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Weather App</span><span
+                        <p><span style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Weather App</span><span
                                 style="font-size: 30px;">
-                                <a href="https://github.com/Kian-F/weatherApp/tree/master/weather-app">(view code)</a>
-                        </p></span>
-                        <img class="projectWeatherPic" src="img/weatherApp.png" alt="">
+                               
+                                <a href="https://github.com/Kian-F/weatherApp/tree/master/weather-app"   class="fab fa-li fa-github"></a> </p></span>
+                                <img class="projectWeatherPic" src="img/weatherApp.png" alt="">
                     </div>
 
                 </div>
             </div>
-            <div class="container" id="project11">
+            
+            <div class="ProjectContainer" id="project11">
                 <div class="front side">
                     <div class="content">
-                        <h2>Project 0</h2>
-                        <p class="heading">Technology.</p>
-                        <div class="technology">
-                            <i class="devicon-html5-plain-wordmark"></i>
-                            <i class="devicon-css3-plain-wordmark"></i>
-                            <i class="devicon-javascript-plain"></i>
-                            <i class="devicon-jquery-plain-wordmark"></i>
-                        </div>
-                        <p>Tic Tac Toe is my Project 0, a simple Tick Tack Toe game developed by JavaScript, Html and
+                        <h2 style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Tic Tac Toe</h2>
+                        <p>A simple Tick Tack Toe game developed by JavaScript, Html and
                             CSS.
                         </p>
 
@@ -168,18 +164,19 @@
                 </div>
                 <div class="back side">
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Tick Tack Toe</span><span
+                        <p><span style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Tick Tack Toe</span><span
                                 style="font-size: 30px;">
-                                <a href="https://github.com/Kian-F/project0">(view code)</a> </p></span>
+                               
+                                <a href="https://github.com/Kian-F/project0"  class="fab fa-li fa-github"></a> </p></span>
                         <img class="project0Pic" src="img/Tic.png" alt="">
                     </div>
 
                 </div>
             </div>
-            <div class="container" id="project2">
+            <div class="ProjectContainer" id="project2">
                 <div class="front side">
                     <div class="content">
-                        <h2>Project 1</h2>
+                        <h2 style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Transfer Market</h2>
                         <p>This project is a web app that allows users(agents) to cereate an
                             account and add there client's(fotboll players) to the database adn the other users can see
                             a
@@ -190,9 +187,9 @@
                 <div class="back side">
                     <div class="content">
                         <div class="content">
-                            <p><span style="font-weight: bold; font-size: 35px;">Simple Transfer Market</span><span
+                            <p><span style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Transfer Market</span><span
                                     style="font-size: 30px;">
-                                    <a href="https://github.com/Kian-F/project1">(view code)</a> </span></p>
+                                    <a href="https://github.com/Kian-F/project1" class="fab fa-li fa-github"> </a> </span></p>
                             <img class="project1Pic" src="img/project1.png" alt="">
                         </div>
                     </div>
@@ -200,13 +197,11 @@
                 </div>
             </div>
 
-            <div class="container" id="project3">
+            <div class="ProjectContainer" id="project3">
                 <div class="front side">
                     <div class="content">
-                        <h2>Project 2</h2>
-                        <p>Great fun building this group project part of the Software Engineering Immersive course at
-                            General Assembly Sydney. Enjoyed the most building both order and check-out components.
-                            This website is a version of Menu Log for an individual restaurant. Users can make orders
+                        <h2 style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Babo Resturant</h2>
+                        <p>This website is a version of Menu Log for an individual restaurant. Users can make orders
                             for pick-up or delivery, with the optional choice of creating a user account. Website built
                             using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.
                         </p>
@@ -215,72 +210,94 @@
                 <div class="back side">
 
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Babo Resturant</span><span
+                        <p><span style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Babo Resturant</span><span
                                 style="font-size: 30px;">
-                                <a href="https://github.com/anapgsilva/restaurant_client">(view code)</a> </span></p>
+                                <a href="https://github.com/anapgsilva/restaurant_client" class="fab fa-li fa-github"></a> </span></p>
                         <img class="project2Pic" src="img/project2.png" alt="">
                     </div>
 
 
                 </div>
             </div>
-            <div class="container" id="project4">
+            <div class="ProjectContainer" id="project4">
                 <div class="front side">
                     <div class="content">
-                        <h2>Project 3</h2>
-                        <p>The idea was to enable people to design thier own dog/cat tag, name or door tag with diffrent
-                            fonts and font-size
+                        <h2 style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Project 3</h2>
+                        <p >The idea was to enable people to choose a sign and design thier own dog/cat, name or door tag 
                             and send thire order trough the website for engraving.
                         </p>
                     </div>
                 </div>
                 <div class="back side">
                     <div class="content">
-                        <p><span style="font-weight: bold; font-size: 30px;">Engraving Online Order</span><span
+                        <p><span style="font-weight: 700; color: aliceblue;; font-size: 24px; font-family: Montserrat, sans-serif; text-transform: uppercase">Online Engraving </span><span
                                 style="font-size: 30px;">
-                                <a href="https://github.com/Kian-F/engraving-client">(view code)</a> </span></p>
+                                <a href="https://github.com/Kian-F/engraving-client" class="fab fa-li fa-github"></a> </span></p>
                         <img class="project2Pic" src="img/project3.png" alt="">
                     </div>
 
                 </div>
             </div>
-
+        </div>
     </section>
+    <section class="section-wrap intro" id="about">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-sm-10 col-sm-offset-1 text-center wow slideInUp mb-30" data-wow-duration="1.2s" data-wow-delay="0s">
+              <h4 class="text-center bottom-line">
+                About me
+              </h4>
+              <p class="intro-text">
+                I'm a software engineer, graduated with BC in 
+                Information System from IT university in Gothenburg/Sweden 
+                and worked one year as a junior Software developer at Telia, 
+                I recently completed a 12-week immersive software engineering course at General Assembly. 
+                After working as a manager and field engineer for almost seven years I decided to go back to my real passion and decided to pursue software engineering full-time.
+              </p>
+              <p class="intro-text mb-30">
+                From my work experience, I have been through many challenging situations and thrive on solving problems under pressure. I also pride myself on bringing the best out of my teams and helping anyone wherever I can. In 2020, I'm looking forward to my first role as a software engineer.
+              </p>
+              <a href="mailto:mahyar.kianfar@gmail.com" target="_blank" class="btn btn-lg btn-color mb-30">
+                Email Me
+              </a>
+              <a href="https://www.linkedin.com/in/mahyar-kianfar/" target="_blank" class="btn btn-lg btn-color mb-30">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
 
+    
     <footer id="footer">
-
-
-
         <ul class="fa-ul">
-            <li>
+            <!-- <li>
                 <i class="fas fa-li fa-paper-plane"></i>
                 <a href="mailto:mahyar.kianfar@gmail.com">
                     <h3 class="link--animate">Lets talk.</h3>
                 </a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
                 <i class="fab fa-li fa-linkedin"></i>
                 <a href="https://www.linkedin.com/in/mahyarkianfar/" target="_blank">
                     <h3 class="link--animate">Get to know me.</h3>
                 </a>
-            </li>
+            </li> -->
             <li>
                 <i class="fab fa-li fa-github"></i>
                 <a href="https://github.com/Kian-F" target="_blank">
-                    <h3 class="link--animate">View my code.</h3>
+                    <h3 class="link--animate" style="color: aliceblue;">View my code</h3>
                 </a>
             </li>
             <li>
                 <i class="fas fa-li fa-file-download"></i>
-                <a href="img/M-Kianfar-CV.pdf" download="mahyar-kianfar-cv" target="_blank">
-                    <h3 class="link--animate">Download CV</h3>
+                <a href="assets/M-Kianfar-CV.pdf" download="mahyar-kianfar-cv" target="_blank">
+                    <h3 class="link--animate" style="color: aliceblue;">Download CV</h3>
                 </a>
             </li>
         </ul>
-
-
     </footer>
-    </div>
+    
     <script src="scripts/ScrollMagic.min.js"></script>
     <script src="scripts/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>

@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
     box-sizing: border-box;
+    
 }
 
-.container {
+.ProjectContainer {
 	-webkit-transition: 1.5s ease-in-out;
 	transition: 1.5s ease-in-out;
     transform-style: preserve-3d;
@@ -16,7 +17,7 @@
 	text-align: center;
 	width: 100%;
 	height: 100%;
-	padding: 20px 50px;
+	padding: 0px 40px;
 	color: #fff;
 	transform-style: preserve-3d;
 	backface-visibility: hidden;
@@ -58,21 +59,21 @@
 	
 }
 .projectWeatherPic{
-    width: 90%;
+    width: 80%;
 }
 .project0Pic{
     width: 60%;
 }
 .project1Pic{
-    width: 90%;
+    width: 100%;
 }
 .project2Pic{
-    width: 90%;
+    width: 80%;
 }
 .project3Pic{
     width: 100%;
 }
-.container:hover {
+.ProjectContainer:hover {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
@@ -99,6 +100,7 @@ header{
 .about{
     height: 200vh;
     display: flex;
+    background-color: ghostwhite;
     /* background-image: url('https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'); */
     
 }
@@ -111,21 +113,31 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 60px;
+   
 
 }
 
 .about-pages{
     width: 50%;
 }
+.contentBack{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
 .about-pages div{
     height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: white;
 }
+
 
 .about-pages div > p{
     /* width: 80%; */
@@ -139,9 +151,9 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
-   
+    text-align:center;
 }
+
 .skills1{
   width: 39vw;
 }
@@ -211,11 +223,15 @@ header{
 
 
 footer{
-    height: 16vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: currentColor;
+    width: inherit;
+    margin-top: 20px;
+    margin-bottom: -60px;
+    background-color:black ;
 }
 .welcome{
     transform: translateZ(50px) translateY(-50%) translateX(-50%);
@@ -247,9 +263,9 @@ footer{
     list-style-type: none;
     }
     #nav a {
-    display:block;
+    display:inline;
     text-align:center;
-    width:150px; /* fixed width */
+    /* width:150px; fixed width */
     text-decoration:none; 
     overflow: hidden;
     color: 2bb3c0;
@@ -277,10 +293,6 @@ footer{
 }
 
   
-  .main-nav {
-    list-style-type: none;
-    display: contents;
-  }
   
   .nav-links,
   .logo {
@@ -322,10 +334,11 @@ footer{
     } */
   
     .main-nav {
-      display: flex;
+      display: contents;
       margin-right: 30px;
       flex-direction: row;
       justify-content: flex-end;
+      list-style-type: none;
     }
   
     
@@ -372,7 +385,7 @@ footer{
     list-style-type: none;
     margin-left: 1em;
     padding-left: 0;
-    color: chartreuse;
+    color: #2bb3c0;
     
 }
 .fa-ul>li {
@@ -392,8 +405,8 @@ a{
 .brand {
     vertical-align: middle;
     border-style: none;
-    height: 108px;
-    width: 110px;
+    height: 130px;
+    width: 150px;
 }
 #heroH2{
     font-family: "Montserrat", sans-serif;
@@ -414,10 +427,37 @@ a{
     margin: 24px auto 0;
     color: #2bb3c0;
 }
+#heroH1{
+    color: white;
+}
 
 .menu-socials {
     width: 28%;
     float: right;
     padding: 0 15px;
     text-decoration:none; 
+}
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-wrap.intro {
+    padding: 100px 0 60px;
+    
+
+}
+
+.navbar-header {
+    width: 12%;
+    padding-right: 28px;
+}
+
+.row{
+    margin-left: 115px;
+}
+.btn.btn-color {
+    background-color: #2bb3c0;
 }
